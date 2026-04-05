@@ -1,0 +1,63 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Akincraft Hub";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Akincraft Hub</h1>
+    <p class="lead">The official portal for the Akincraft voxel engine project, with build information, engine details, and project status.</p>
+</div>
+
+<div class="row mt-4">
+    <div class="col-lg-4 mb-3">
+        <div class="card shadow-sm h-100">
+            <div class="card-body">
+                <h5 class="card-title">Project Overview</h5>
+                <p class="card-text">Akincraft is a dual-stack voxel engine project with Java and C++ prototypes. This portal highlights the C++ engine branch and provides quick access to repository resources.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 mb-3">
+        <div class="card shadow-sm h-100">
+            <div class="card-body">
+                <h5 class="card-title">C++ Engine</h5>
+                <p class="card-text">The C++ engine lives in <code>cpp/</code> and includes first-person controls, procedural terrain, mob spawning, weapons, and a game loop powered by GLFW and OpenGL.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 mb-3">
+        <div class="card shadow-sm h-100">
+            <div class="card-body">
+                <h5 class="card-title">Website</h5>
+                <p class="card-text">This site is implemented in <strong>C#</strong> with ASP.NET Core Razor Pages. It includes a simple API endpoint for project metadata and navigation for future content.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <div class="bg-light p-4 rounded shadow-sm">
+            <h4>Getting started</h4>
+            <p>Use the repository README to launch the engine locally, or run the website with <code>dotnet run</code> inside the <code>website</code> folder.</p>
+            <ul>
+                <li><strong>Engine:</strong> <code>cpp/</code></li>
+                <li><strong>Website:</strong> <code>website/</code></li>
+                <li><strong>Repo:</strong> <a href="https://github.com/AkiUse306/akincraft">github.com/AkiUse306/akincraft</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="bg-light p-4 rounded shadow-sm">
+            <h4>API Endpoint</h4>
+            <p>Project metadata is exposed at:</p>
+            <pre class="small bg-white p-3 rounded">/api/project</pre>
+            <p>This endpoint returns JSON describing the website and engine.</p>
+        </div>
+    </div>
+</div>
+
+<div class="mt-4">
+    <p class="text-muted">Akincraft Hub is built to showcase the repository and provide a simple C# front-end alongside the C++ voxel engine.</p>
+</div>
