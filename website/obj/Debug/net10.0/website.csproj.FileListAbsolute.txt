@@ -22,7 +22,6 @@
 /workspaces/akincraft/website/obj/Debug/net10.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
 /workspaces/akincraft/website/obj/Debug/net10.0/scopedcss/bundle/website.styles.css
 /workspaces/akincraft/website/obj/Debug/net10.0/scopedcss/projectbundle/website.bundle.scp.css
-/workspaces/akincraft/website/obj/Debug/net10.0/compressed/nim3maq2lc-{0}-lugek5hnai-lugek5hnai.gz
 /workspaces/akincraft/website/obj/Debug/net10.0/compressed/voyazpgfbg-{0}-61n19gt1b8-61n19gt1b8.gz
 /workspaces/akincraft/website/obj/Debug/net10.0/compressed/t0l5s68sqc-{0}-fr7q2aak1r-fr7q2aak1r.gz
 /workspaces/akincraft/website/obj/Debug/net10.0/compressed/kbhk49uw6l-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -96,3 +95,4 @@
 /workspaces/akincraft/website/obj/Debug/net10.0/website.pdb
 /workspaces/akincraft/website/obj/Debug/net10.0/website.genruntimeconfig.cache
 /workspaces/akincraft/website/obj/Debug/net10.0/ref/website.dll
+/workspaces/akincraft/website/obj/Debug/net10.0/compressed/nim3maq2lc-{0}-b44dyxsnk0-b44dyxsnk0.gz
