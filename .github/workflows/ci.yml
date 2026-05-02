@@ -18,8 +18,8 @@ jobs:
           java-version: 21
       - name: Build and run Java prototype
         run: |
-          cd java
-          ./gradlew --no-daemon clean run
+         cd java
+         ./gradlew --no-daemon clean run
 
   cpp:
     runs-on: ubuntu-latest
@@ -31,12 +31,12 @@ jobs:
           sudo apt-get install -y cmake build-essential python3 libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev libgl1-mesa-dev
       - name: Build C++ prototype
         run: |
-          cd cpp
-          dotnet build
-          mkdir -p build
-          cd build
-          cmake ..
-          cmake --build .
+         cd cpp
+         dotnet build
+         mkdir -p build
+         cd build
+         cmake ..
+         cmake --build .
       - name: Run C++ binary
         run: |
           cd cpp/build
